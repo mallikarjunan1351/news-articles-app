@@ -16,7 +16,7 @@ News Articles App is a React-based application that displays a list of news arti
 
 1. **Clone the repository:**
 
-    git clone https://github.com/yourusername/news-articles-app.git
+    git clone https://github.com/mallikarjunan1351/news-articles-app.git
     cd news-articles-app
 
 2. **Install dependencies:**
