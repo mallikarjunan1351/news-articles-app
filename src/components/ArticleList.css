@@ -1,0 +1,26 @@
+.article-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 768px) {
+    .article-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .article-list {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  
+  .article-card {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,42 @@
+.home {
+    padding: 1rem;
+    margin-top: 5rem;
+    text-align: center;
+    color: #5A5A5A;
+  }
+
+  select{
+    color: #5A5A5A;
+  }
+  
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .home-header h1 {
+    margin: 0;
+    font-size: 25px;
+  }
+  
+  .home-header select {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .home-header {
+      flex-direction: column;
+    }
+  
+    .home-header h1 {
+      margin-bottom: 0.5rem;
+    }
+  
+    .home-header select {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto',Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 1rem;
+    font-size: 40px;
+    font-weight: 600;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  
+    a {
+      color: white;
+      text-decoration: none;
+      margin-right: 1rem;
+      letter-spacing: .2rem;
+      text-decoration: none;
+    }
+  }
+  
+  .article-details {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  

@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: 'Chomsky', sans-serif;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+
+  .navbar button {
+    font-family: 'Chomsky', sans-serif;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+    font-family: 'Chomsky', sans-serif;
+    text-decoration: none;
+  }
+  
+
+
+  

@@ -1,0 +1,46 @@
+.article-details {
+  padding: 1rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+  margin-top: 5rem;
+}
+
+.article-details h1 {
+  margin: 0 0 0.5rem;
+  font-size: 25px;
+  color: #5a5a5a;
+}
+
+.article-details p {
+  margin: 0 0 1rem;
+  font-size: 15px;
+  color: #5a5a5a;
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.horizontal-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.horizontal-list li {
+  margin-right: 30px;
+  font-size: 12px;
+  position: relative;
+  color: #5a5a5a;
+}
+
+.horizontal-list li:not(:last-child)::after {
+  content: "•";
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: 30px;
+}

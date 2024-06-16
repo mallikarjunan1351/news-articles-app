@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar"
+  >
+    <a
+      href="/"
+    >
+      News Articles
+    </a>
+  </nav>
+  <div
+    class="ant-skeleton ant-skeleton-active css-dev-only-do-not-override-zg0ahe"
+  >
+    <div
+      class="ant-skeleton-content"
+    >
+      <h3
+        class="ant-skeleton-title"
+        style="width: 38%;"
+      />
+      <ul
+        class="ant-skeleton-paragraph"
+      >
+        <li />
+        <li />
+        <li
+          style="width: 61%;"
+        />
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
